@@ -24,10 +24,12 @@ The protocol is a mixture of Quick et al. and the mouse-tail lysis protocol from
 
 TLB (from long-fragment protocol v1.2 by Quick et al.):
 
-10 mM Tris-Cl, pH 8.0
-25 mM EDTA, pH 8.0
-0.5 % (w/v) SDS
-20 µg/ml QIAGEN RNase A (add fresh just before use)
+| reagent | unit |
+| ------------- | ------------- |
+| Tris-Cl  | 10 mM, pH 8.0  |
+| EDTA  | 25 mM, pH 8.0  |
+| SDS  | 0.5 % (w/v)  |
+| RNase A | 20 µg/ml (QIAGEN, add fresh just before use) |
 
 ### Procedure
 
