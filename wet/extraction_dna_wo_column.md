@@ -7,11 +7,11 @@ Jain, Miten, Sergey Koren, Josh Quick, Arthur C. Rand, Thomas A. Sasani, John R.
 - [version 1.3](https://docs.google.com/document/d/1ITV4XobY0GQ0m-pBlhIUqvhuSJBIgoWVHS1av4e4XIk/edit)
 - [version 1.2](https://docs.google.com/document/d/1025Tu_zPWqK14JEJ9IFzRul1l5RoIORE_FcAUrQpMwA/edit)
 
+The protocol is a mixture of Quick et al. and the mouse-tail lysis protocol from the FLI.
+
 ### Cells
 
 Currently tested on E. coli (TOP10 F) cell lines.
-
-The protocol is a mixture of Quick et al. and the mouse-tail lysis protocol from the FLI.
 
 ### Modifications
 
@@ -30,6 +30,10 @@ TLB (from long-fragment protocol v1.2 by Quick et al.):
 | EDTA  | 25 mM, pH 8.0  |
 | SDS  | 0.5 % (w/v)  |
 | RNase A | 20 µg/ml (QIAGEN, add fresh just before use) |
+
+// TODO: add proteinase K? Quick et. al write:
+
+> Add Qiagen Proteinase K (20 mg/mL) to a final concentration of 200 ug/ml.
 
 ### Procedure
 
@@ -54,7 +58,7 @@ TLB (from long-fragment protocol v1.2 by Quick et al.):
 - incubate at 50°C over night in water bath
 - precipitation:
   - add 2 ml NaCl (5 M)
-  // Why is salt added before spin?
+  // Why is salt added before spin? This is called ["salting out"](https://en.wikipedia.org/wiki/Salting_out), which means that proteins are precipitated [in presence of large salt concentration](https://en.wikipedia.org/wiki/Ammonium_sulfate_precipitation). If not performed in this order, a mucous plug forms, from which the DNA will not readily precipitate.
   - invert 10 times
   - spin(max, 10, 4)
   // removes crap
