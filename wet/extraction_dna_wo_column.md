@@ -35,6 +35,14 @@ TLB (from long-fragment protocol v1.2 by Quick et al.):
 
 > Add Qiagen Proteinase K (20 mg/mL) to a final concentration of 200 ug/ml.
 
+EB (from long-fragment protocol v1.3 by Quick et al.):
+
+10 mM Tris-Cl pH 8, 0.05% Triton X-100
+
+// Why Triton-X?
+
+> Thermo MuA buffer contains Triton X-100, we've found adding it improves efficiency of the library. -- Josh Quick, comment on protocol v1.3
+
 ### Procedure
 
 - take an overnight culture of E. coli growing LB medium
